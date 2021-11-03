@@ -1,3 +1,4 @@
-export interface IClockProps {
-  description: string;
+import {IClockWebPartProps} from "../ClockWebPart";
+
+export interface IClockProps extends IClockWebPartProps {
 }

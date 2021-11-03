@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as ReactDom from 'react-dom';
 import { Version } from '@microsoft/sp-core-library';
 import {
-  IPropertyPaneConfiguration,
+  IPropertyPaneConfiguration, PropertyPaneDropdown,
   PropertyPaneTextField
 } from '@microsoft/sp-property-pane';
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
@@ -11,9 +11,16 @@ import * as strings from 'ClockWebPartStrings';
 import Clock from './components/Clock';
 import { IClockProps } from './components/IClockProps';
 
+type TextAlignment = 'left' | 'center' | 'right';
+
 export interface IClockWebPartProps {
-  description: string;
+  initialHour: number;
+  clockAlignment: TextAlignment;
 }
+
+let script = document.createElement('script');
+script.src = "//localhost:35729/livereload.js?snipver=1";
+document.head.appendChild(script);
 
 export default class ClockWebPart extends BaseClientSideWebPart<IClockWebPartProps> {
 
@@ -21,7 +28,8 @@ export default class ClockWebPart extends BaseClientSideWebPart<IClockWebPartPro
     const element: React.ReactElement<IClockProps> = React.createElement(
       Clock,
       {
-        description: this.properties.description
+        initialHour: this.properties.initialHour,
+        clockAlignment: this.properties.clockAlignment
       }
     );
 
@@ -36,6 +44,12 @@ export default class ClockWebPart extends BaseClientSideWebPart<IClockWebPartPro
     return Version.parse('1.0');
   }
 
+  private validateInitialHour(value: string): string {
+    if (+value < 0 || +value >= 24) return 'Please enter a number between 0 and 23.';
+
+    return '';
+  }
+
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
     return {
       pages: [
@@ -47,8 +61,17 @@ export default class ClockWebPart extends BaseClientSideWebPart<IClockWebPartPro
             {
               groupName: strings.BasicGroupName,
               groupFields: [
-                PropertyPaneTextField('description', {
-                  label: strings.DescriptionFieldLabel
+                PropertyPaneTextField('initialHour', {
+                  label: strings.InitialHourLabel,
+                  onGetErrorMessage: value => this.validateInitialHour(value)
+                }),
+                PropertyPaneDropdown('clockAlignment', {
+                  label: 'Clock alignment',
+                  options: [
+                    {key: 'left', text: 'Left alignment'},
+                    {key: 'center', text: 'Center alignment'},
+                    {key: 'right', text: 'Right alignment'}
+                  ]
                 })
               ]
             }

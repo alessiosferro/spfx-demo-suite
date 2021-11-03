@@ -1,25 +1,24 @@
-import * as React from 'react';
-import styles from './Clock.module.scss';
 import { IClockProps } from './IClockProps';
-import { escape } from '@microsoft/sp-lodash-subset';
+import {FunctionComponent, useEffect, useState} from "react";
+import * as React from 'react';
+import * as dayjs from 'dayjs';
 
-export default class Clock extends React.Component<IClockProps, {}> {
-  public render(): React.ReactElement<IClockProps> {
-    return (
-      <div className={ styles.clock }>
-        <div className={ styles.container }>
-          <div className={ styles.row }>
-            <div className={ styles.column }>
-              <span className={ styles.title }>Welcome to SharePoint!</span>
-              <p className={ styles.subTitle }>Customize SharePoint experiences using Web Parts.</p>
-              <p className={ styles.description }>{escape(this.props.description)}</p>
-              <a href="https://aka.ms/spfx" className={ styles.button }>
-                <span className={ styles.label }>Learn more</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
+const Clock: FunctionComponent<IClockProps> = props => {
+  const [date, setDate] = useState(() => dayjs().set('hour', props.initialHour));
+
+  useEffect(() => {
+    setDate(currentDate => currentDate.set('hour', props.initialHour));
+  }, [props.initialHour]);
+
+  useEffect(() => {
+    const id = setInterval(() => {
+      setDate(currentDate => currentDate.add(1, 'second'));
+    }, 1000);
+
+    return () => clearInterval(id);
+  }, []);
+
+  return <h1 style={{textAlign: props.clockAlignment}}>{date.format('DD/MM/YYYY HH:mm:ss')}</h1>;
 }
+
+export default Clock;

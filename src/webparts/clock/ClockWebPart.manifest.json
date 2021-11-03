@@ -20,9 +20,10 @@
     "group": { "default": "Other" },
     "title": { "default": "Clock" },
     "description": { "default": "Clock description" },
-    "officeFabricIconFontName": "Page",
+    "officeFabricIconFontName": "Clock",
     "properties": {
-      "description": "Clock"
+      "initialHour": "12",
+      "clockAlignment": "center"
     }
   }]
 }

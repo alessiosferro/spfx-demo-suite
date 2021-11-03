@@ -1,7 +1,7 @@
 declare interface IClockWebPartStrings {
   PropertyPaneDescription: string;
   BasicGroupName: string;
-  DescriptionFieldLabel: string;
+  InitialHourLabel: string
 }
 
 declare module 'ClockWebPartStrings' {

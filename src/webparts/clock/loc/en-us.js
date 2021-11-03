@@ -1,7 +1,7 @@
 define([], function() {
   return {
-    "PropertyPaneDescription": "Description",
-    "BasicGroupName": "Group Name",
-    "DescriptionFieldLabel": "Description Field"
+    "PropertyPaneDescription": "Adjust clock settings",
+    "BasicGroupName": "Date settings",
+    "InitialHourLabel": "Initial clock hour"
   }
 });

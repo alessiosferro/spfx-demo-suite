@@ -5,64 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f74f4f9c-1f32-4fab-bfc8-a9f3688eac8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.yo-rc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/deploy-azure-storage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/package-solution.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/serve.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/write-manifests.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webparts/clock/ClockWebPart.manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webparts/clock/ClockWebPart.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webparts/clock/components/Clock.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webparts/clock/components/Clock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webparts/clock/components/IClockProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webparts/clock/loc/en-us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webparts/clock/loc/mystrings.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teams/7f5404db-f9df-4229-8cd0-cae560bfdb0c_color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teams/7f5404db-f9df-4229-8cd0-cae560bfdb0c_outline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/.csscomb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/.stylelintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/.yo-rc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/config/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/config/copy-assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/config/deploy-azure-storage.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/config/jest.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/config/package-solution.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/config/serve.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/config/write-manifests.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/src/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/src/webparts/clock/ClockWebPart.manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/src/webparts/clock/ClockWebPart.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/src/webparts/clock/components/Clock.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/src/webparts/clock/components/Clock.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/src/webparts/clock/components/IClockProps.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/src/webparts/clock/loc/en-us.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/src/webparts/clock/loc/mystrings.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/teams/e919d164-3ee9-4c7f-a488-9f38b0c20a52_color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/teams/e919d164-3ee9-4c7f-a488-9f38b0c20a52_outline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/tools/pre-version.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clock/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webparts/clock/ClockWebPart.manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/webparts/clock/ClockWebPart.manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webparts/clock/ClockWebPart.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/webparts/clock/ClockWebPart.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webparts/clock/components/Clock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/webparts/clock/components/Clock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webparts/clock/components/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/webparts/clock/components/Clock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webparts/clock/components/IClockProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/webparts/clock/components/IClockProps.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webparts/clock/loc/en-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webparts/clock/loc/en-us.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webparts/clock/loc/mystrings.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/webparts/clock/loc/mystrings.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +23,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="20P2vgKOmI8hmJjVWq7at4jRAaF" />
   <component name="ProjectLevelVcsManager">
@@ -82,15 +42,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.stylelintrc.json" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="D:\Code\SPFx\demo-suite\node_modules\stylelint" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTHome" />
+    <property name="settings.editor.selected.configurable" value="configurable.stylesheets.stylelint" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2021.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -101,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635932136790</updated>
-      <workItem from="1635932138432" duration="1170000" />
+      <workItem from="1635932138432" duration="6213000" />
     </task>
     <servers />
   </component>
@@ -110,5 +75,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
